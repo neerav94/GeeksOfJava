@@ -1,0 +1,1 @@
+Given a queue data structure with the standard functions like add() and remove() to push and pop the elements repectively. Using this data structure implement the stacks.

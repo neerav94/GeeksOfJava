@@ -1,0 +1,41 @@
+CITRIX INTERVIEW EXPERIENCE- 26TH JULY, 2016
+
+ROUND 1:
+About 500 students having 8.0 cgpa and above were shortlisted for an online test on Hacker-Rank. It consisted of 2 sections-
+Section 1: The section consisted of 50 MCQ’s which were to be answered in 60 minutes of time. The questions were based on Operating systems, Computer Networks, Data-Structures, Algorithms, C-based output questions and also some Aptitude questions (very less in number). Majority of the questions were on Operating systems and Networking. 
+Section 2: Two programming question, one being simpler based on Arrays and the other required some pre-knowledge of Trees. The time-limit for this section was 60 minutes. 
+Question 1: Given a 1-D array representing the converted 2-D array where first element in the former represents number of columns in 2-D array, followed by every row [of 2-D array] in succession [in 1-D array], produce the elements at certain positions as asked as part of queries.
+Question 2: Given the pre-order traversal of a Binary tree in the form of an Array, we need to compute the post-order traversal of the tree and return the array. (Implement the function)
+After round one, 55 students were shortlisted for interview. 
+ 
+ROUND 2:
+INTERVIEW 1 (90 minutes):
+ This interview was a technical interview. Interviewers were really polite and were keen to know my interest areas, so asked me to describe myself relating to both technical as well as non-technical knowledge. 
+Interview started with my projects listed on the resume [5 of them], they were keen to ask questions on my networking projects I did. So, this went for around 15-20mins of my interview. Next I was asked coding questions on C language: 
+Questions:  
+1. Given a string needed to right a rotator-string function which shall rotate the string by k number of times [Needed to handle all base-cases or edge-cases].
+2. Given a tree print the boundary traversal of the tree.
+3. Given pre-order of a Binary tree, output the post-order of tree using arrays.
+Next I was asked general questions on Java and C. Questions were related to Backtracking, Java Virtual Machine, Byte codes, Executable in C, JDK and Java versions. Also I was asked questions about Pointer output questions.
+
+
+Next I was asked questions on Networking. 
+Questions: How does DNS record’s work, how does a what’s-App call takes place [explaining the working as it happens in a Cellular Network], Working of Skype, 3 ways to bring down a Flip-kart server using your own Personal Computer and many more inter-related concepts. 
+INTERVIEW 2 (40-50 minutes):
+The Interview was again a Technical Interview which focused on: Networking, Unix System Programming, Operating Systems, Data-Structures and Puzzles (was a kind of rapid fire round). Networking questions were related to SYN Flood-attacks, TCP handshake, Virtual LAN’s, UDP datagrams, Load-Balancing. Operating System and USP questions were on: Mutex, Producer-Consumer problem, Semaphores, Scheduling Techniques, Paging, Loading Sequence (what all processes run between switching on a Computer machine and seeing display on Desktop) etc. 
+Next was given scenarios on different types of Data-set’s given to me and was asked to analyze the data and store in  the most appropriate data-structure for easy manipulation and retrieval of data/information. Generally the data-structures were Trees, Hashing and Linked List.
+Lastly was asked 2-3 puzzles which were meant to test the logical abilities and also 3 coding questions were asked to be coded in C. Coding Questions were: 
+1.	Given a million words long sentence, reverse all words in themselves (rather reversing whole sentence).
+2.	Given a Binary tree, produce the ZIG-ZAG traversal and also find least distance between two nodes.  
+3.	Given an array, provide the longest Increasing sum subsequence.
+
+INTERVIEW 3 (40 minutes):
+My third technical interview round, I was really exhausted, so seeing that the interview began from my projects for around 15mins and then was asked questions on networking, operating systems and data-structures.
+Questions: Operating Systems – Threading in Operating Systems, User level threads and Kernel Level threads, Jacketing, Domains in Threads, PCB and Paging. Networking Questions – Load Balancing, Link layer concepts were tested as differences between hub, switch and bridge were asked. Also on ad-hoc networking and CSMA protocol. 
+Data-Structures – Given two binary numbers represented as Linked list, output the sum on addition of the same.
+
+INTERVIEW 4 (20-30 minutes):
+This was my HR interview, where no technical questions were asked. The interviewer discussed about my Master’s plans and things and was trying to test that how long I would be with the company if a Job-offer was made. I was asked things on my strengths, hobbies and was really an easy round. After the HR interview a result came out and was selected to work at CITRIX.
+
+  
+

@@ -1,0 +1,1 @@
+Reverse a stack recursively that is, don't use loop constructs like for, while etc.

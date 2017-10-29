@@ -1,0 +1,17 @@
+MajorityElement
+Majority Element
+Majority Element: A  majority  element  in  an  array A[]  of  size  n  is  an  element  that  appears  more  than  n/2
+times (and hence there is at most one such element).
+
+Algorithm:
+
+Iterate over the entire elements of the array and while iterating,
+1) Construct a HashMap that will store key as arr[i] and value=frequency of occurrence of arr[i]
+2) If HashMap contains arr[i] as key, then increment the value of its frequency.
+3) Check if the value > n/2. If true, return arr[i]. This is our majority element
+4) If HashMap doesn't contains arr[i] as its key, add arr[i] into it with value=1
+5) Return -1 if no majority elements are found.
+
+Complexity:
+Time:
+Space:

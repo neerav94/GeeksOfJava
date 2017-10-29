@@ -1,0 +1,24 @@
+Dequeue
+
+Deque or Double Ended Queue is a generalized version of Queue data structure that allows insert and delete at both ends. The following operations are supported:
+     insertFirst(): Inserts the element in the begining of the queue
+     insertLast(): Inserts the element at the end of the queue
+     deleteFirst(): deletes an element from the start of the queue
+     deleteELast(): deletes an element from the end of the queue
+
+HINT: Use double linked list.
+
+Example:
+
+•	Insert 3 at starting.
+•	Insert 2 at starting.
+•	Insert 4 at end.
+•	Insert 1 at starting.
+•	Insert 5 at end.
+
+•	So the list will look like: 1->2->3->4->5
+
+•	Delete 5 from last.
+•	Delete 1 from start
+
+•	So the list will look like: 2->3->4

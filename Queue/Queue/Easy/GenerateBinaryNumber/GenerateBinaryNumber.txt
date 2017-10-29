@@ -1,0 +1,40 @@
+GenerateBinaryNumber
+
+Given a decimal number, n generate binary number of 1 to n.
+
+Test Cases:
+Input: 5
+Output: 1 = 1
+	    2 = 10
+	    3 = 11
+	    4 = 100
+	    5 = 101
+
+Input: 8
+Output: 1 = 1
+	    2 = 10
+	    3 = 11
+	    4 = 100
+	    5 = 101
+	    6 = 110
+	    7 = 111
+	    8 = 1000
+
+Algorithm:
+Step-1: Create a string queue and add 1 in the queue. That is the binary equivalent for 1.
+Step-2: In the while loop which will run n times remove the front element and print it
+Step-3: Append 0 and 1 to the recently removed element from the queue and add both these numbers back to the queue
+Step-4: Goto step-2
+
+Example:
+
+Input: 3
+�	Add 1 to the queue
+�	Remove it from the queue and print it.
+�	Store the removed element into 2 strings and append 0 and 1 to the new strings.
+�	So the new string will be 10 and 11 and ad them to the queue.
+�	Decreament n to n=2.
+�	Remove 10 again and print it and repeat the above steps again.
+�	Decreament n to n=1
+�	Remove 11 from the queue and print it and repeat the above steps for 11 too.
+�	Decreament n to 0 and exit the while loop.

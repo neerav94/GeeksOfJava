@@ -1,0 +1,1 @@
+deGiven a decimal number, n generate binary number of 1 to n.

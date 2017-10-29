@@ -1,0 +1,15 @@
+Leader:
+Leaders in an array
+Write  a  program  to  print  all  the  LEADERS  in  the  array.  An  element  is  leader  if  it  is  greater  than  all  the
+elements to its right side. And the rightmost element is always a leader.
+
+Algorithm:
+1) As mentionedrightmost element is always the leader, let it be our max 
+2) Iterate over the element of the array from back.
+3) For each i, compare a[i] and max.
+4) If a[i]>max then a[i] is a leader and change the value of max=a[i]
+
+Complexity:
+Time: O(n)
+Space: O(1)
+

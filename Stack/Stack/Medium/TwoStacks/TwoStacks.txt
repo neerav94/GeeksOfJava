@@ -1,0 +1,26 @@
+TwoStacks
+
+Q: Create a data structure twoStacks that represents two stacks. Implementation of twoStacks should use only one array, i.e., both stacks should use the same array for storing elements. Following functions must be supported by twoStacks.
+
+push1(int x) –> pushes x to first stack
+push2(int x) –> pushes x to second stack
+
+pop1() –> pops an element from first stack and return the popped element
+pop2() –> pops an element from second stack and return the popped element
+
+HINT: Fill the array from both ends. From one end fill for stack 1 and from other end fill for the other stack.
+
+Algorithm:
+Maintain two pointers. One at the starting of the array and second at the end of the array. Start pushing the elements in 1st stack from starting and in 2nd array from the end.
+
+Example:
+Input array=[0, 0, 0, 0, 0, 0, 0, 0]
+
+-	s1.push(1)
+-	s1.push(2)
+-	s1.push(3)
+-	s2.push(4)
+-	s2.push(5)
+
+After the above operations array will be like: [1, 2, 3, 0, 0, 0, 5, 4]
+

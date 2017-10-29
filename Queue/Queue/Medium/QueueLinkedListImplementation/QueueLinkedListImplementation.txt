@@ -1,0 +1,14 @@
+QueueLinkedListImplementation
+
+Implement queue as Linked List.
+
+Algorithm:
+•	If insert() is called add a new node is and shift rear
+•	If remove() is called shift the front pointer to the next node thus deleting the previous node.
+
+Example:
+
+Insert 1, 2, 3, 4 to the queue.
+The queue implemented as linked list will look like 1->2->3->4. Rear will point to 4 and front to 1. When new element 5 is inserted list will look like 1->2->3->4->5 with rear pointer pointing to 5.
+
+When delete is called, shift the front pointer to point to the next element i.e. to point to 2 and thus deleting 1 from the list. 

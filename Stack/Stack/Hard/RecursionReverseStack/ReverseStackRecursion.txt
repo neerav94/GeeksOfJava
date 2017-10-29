@@ -1,0 +1,23 @@
+ReverseStackRecursion
+
+Q: Reverse a stack recursively that is, don't use loop constructs like for, while etc.
+
+Test Cases: 
+Input: 1 2 3 4 5
+Output: 5 4 3 2 1
+
+Input: 9 8 7 6
+Output: 6 7 8 9
+
+Algorithm:
+Step-1: Keep popping out the values from the stack till it gets empty
+Step-2: Held these values by recursive calling
+Step-3: After the stack gets empty insert the values which were on hold back in the bottom 	  of the stack
+
+Example:
+Input 1 2 3 4 5
+-	Pop 1 and hold it in the recursive call.
+-	Pop 2 and hold it in the recursive call.
+-	Similarly call reverse() recursively and hold 3, 4, 5 in the recursive call.
+-	Insert them in the way they were on hold. i.e. 5 at the top, below it 4 and so on.
+

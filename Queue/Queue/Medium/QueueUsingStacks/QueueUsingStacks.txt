@@ -1,0 +1,21 @@
+QeueUsingStacks
+
+Implementation of queue using 2 stacks
+
+Algorithm:
+-	Create 2 stacks s1 and s2
+-	insert() method:
+    	if the size of s1==0:
+-	push element in s2
+    	else:
+-	pop one by one all the elements from s1 and at the same time push them in 
+-	s2. (Make sure you push them in the same order)
+		push the element you want to insert in queue in s1
+-	pop one by one all the elements from s2 previously inserted and at the same time push them in s1
+
+-	delete() method:
+    	if the size of s1==0:
+-	underflow
+    	else:
+-	pop the element form s2 and return it
+

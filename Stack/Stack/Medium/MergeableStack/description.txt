@@ -1,0 +1,5 @@
+Design a stack with following operations.
+a) push(Stack s, x): Adds an item x to stack s
+b) pop(Stack s): Removes the top item from stack s
+c) merge(Stack s1, Stack s2): Merge contents of s2 into s1.
+

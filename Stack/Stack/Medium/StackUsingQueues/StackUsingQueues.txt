@@ -1,0 +1,21 @@
+StackUsingQueues
+
+Given a queue data structure with the standard functions like add() and remove() to push and pop the elements repectively. Using this data structure implement the stacks.
+
+HINT: Queue follows FIFO (First In First Out function), hence use two queues.
+
+Algorithm:
+-	push( ): If q is empty than push the element onto it
+		  else, remove all the elements from q one by one and add these elements in the temporary queue temp,
+	      	  add element to queue q after it becomes empty,
+	      	  enqueue the elements back to q from temp.
+
+-	pop( ): Call the remove( ) function on the queue
+
+Example:
+
+Let the initially state of the q be: 1 2 3 4
+-	When push( ) is called, remove one-by-one all the values from the queue and push it to a temporary queue, temp.
+-	Push the new element 5 to the queue q and then add all the elements back to q from temp.
+-	Stack will look something like: 1 2 3 4 5
+-	When pop( ) is called 5 will be removed due to the queue's FIFO principle. And according to the stack it should be removed coz it was the last element to be inserted.

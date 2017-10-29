@@ -1,0 +1,14 @@
+FindMissingElement1:
+Find the Missing Number
+You are given a list of n-­1 integers and these integers are in the range of 1 to n. There are no duplicates in
+list. One of the integers is missing in the list. Write an efficient code to find the missing integer. 
+
+Algorithm:
+1) Find the sum of the elements of the array. Let this be stored in sum1
+2) Since the numbers are in between 1 to n, this forms an arthimetic progression. Sum of numbers from 1 to n will be n(n+1)/2, let this be stored in sum2.
+3) sum2-sum1 will give the missing element
+
+Complexity:
+Time: O(n)
+Space: O(1)
+

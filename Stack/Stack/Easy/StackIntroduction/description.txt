@@ -1,0 +1,4 @@
+Stack or LIFO(Last In First Out) is an abstract data type which has a collection of elements which performs the following basic operations:
+a) push: pushes the element on the top of the stack. If the stack is full it is called an overflow condition.
+b) pop: pops out the element from the top which was latest inserted in the stack. If the stack is empty it is called underflow condition.
+c) peek: checks the top of the stack

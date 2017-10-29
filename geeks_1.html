@@ -1,0 +1,156 @@
+<?php require('db.php');
+	if(!loggedin()) {
+		header("Location:index.html");
+		exit();
+	}?>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1"/>
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="css/home.css"/>
+	<style type="text/css">
+		div.top img{
+			width: 350px;
+			height: 300px;
+			border-radius: 40px;
+		}
+		li.log img{
+			width: 100px;
+			height: 75px;
+		}
+	</style>
+	<style type="text/css">
+        div.left{
+			float:left;
+		}
+		div.left img{
+			width: 100px;
+			height: 100px;
+			border-radius: 100px;
+		}
+		
+		#vk{
+		width:150px;
+		height:30px;
+		}
+		
+		div.right{
+		    
+			float:left;
+			margin-left: 100px;
+		}
+		#as{
+		height: 300px;
+		width:	300px;
+		border-radius: 0px;
+		}
+		
+		.drop-downs{
+		background-color : #99bbff;
+		}
+		
+        body 
+    {
+        
+        background-color: #ffffcc;
+        
+        /*background-repeat: no-repeat;*/
+        /*height: 100%;*/
+        /*width: 100%;*/
+        
+    }
+    p{
+    	font-size: 15px;
+    	color: black;
+    	font-weight: bold;
+
+    }
+    #fs{
+    color:blue;
+    }
+    
+        
+    </style>
+	<title>GeeksOfJava</title>
+</head>
+<body bgcolor="#c1d2cc">
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+            </button>
+			<a href="geeks_1.html" class="navbar-brand">GeeksOfJava</a>
+		</div>
+		 <div class="collapse navbar-collapse navbar-right">
+		<ul class="nav navbar-nav">
+		    <li>
+				<a href="" class="dropdown-toggle" data-toggle="dropdown">Data Structures <span class="caret"></span></a>
+				<ul class="dropdown-menu">
+					<li><a href="Arrays.php" class = "drop-downs">Arrays</a></li>
+					<li><a href="Stacks.php" class = "drop-downs">Stacks</a></li>
+					<li><a href="Queues.php" class = "drop-downs">Queues</a></li>
+					<li><a href="Linked.php" class = "drop-downs">Linked Lists</a></li>
+				</ul>
+			</li>
+			<li><a href="geeks_1.html">Algorithms</a></li>
+			<li><a href="geeks_1.html">Articles</a></li>
+			<li>
+				<a href="" class="dropdown-toggle" data-toggle="dropdown">Challenges<span class="caret"></span></a>
+				<ul class="dropdown-menu">
+					<li><a href="geeks_1.html" class = "drop-downs"><img id="vk" src="images/spoj.png"></a></li>
+					<li><a href="geeks_1.html" class = "drop-downs"><img id="vk" src="images/code-chef.jpe"></a></li>
+					<li><a href="geeks_1.html" class = "drop-downs"><img id="vk" src="images/earth.png"></a></li>
+					<li><a href="geeks_1.html" class = "drop-downs"><img id="vk" src="images/rank.jpe"></li></a></li>
+					<li><a href="geeks_1.html" class = "drop-downs"><img id="vk" src="images/top.jpe"></li></a></li>
+					<li><a href="geeks_1.html" class = "drop-downs"><img id="vk" src="images/carrer.png"></li></a></li>
+				</ul>
+			</li>
+			<li>
+				<a href="" class = "dropdown-toggle" data-toggle = "dropdown">Interview Experience<span class="caret"></span></a>
+			    <ul class = "dropdown-menu">
+				    <li><a href = "" class = "drop-downs">2017</a></li>
+			    </ul>
+			</li>
+			<li><a href="geeks_2.html">About Us</a></li>
+			<li><a href="geeks_4.html">Contact Us</a></li>
+			<li><a href="logout.php">Log Out</a></li>
+			</ul>
+		</div>
+	</div>	
+	</nav>	<!-- end of nav bar -->
+	<!--<div class="content container"></div>-->
+		<header class="bgimage">
+				<div class="quote container" id="new">
+					<div id="about">
+
+					</div>
+				</div>
+		</header>
+		
+	
+	<footer class="trademark">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6">
+					&copy;2016 GeeksOfJava.
+				</div>
+				
+				<div class="col-sm-6">
+					<ul class="pull-right">
+						<li><a href="geeks_2.html">About us</a></li>
+						<li><a href="geeks_1.html">Home</a></li>
+						<li><a href="logout.php">Log Out</a></li>
+						<li><img id="vk" src="images/pes.jpe"></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>	
+	<script src="js/jquery-2.1.4.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/script.js"></script>
+</body>

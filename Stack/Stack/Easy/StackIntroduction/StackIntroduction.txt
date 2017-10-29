@@ -1,0 +1,18 @@
+StackIntroduction
+
+Stack or LIFO(Last In First Out) is an abstract data type which has a collection of elements which performs the following basic operations:
+a) push: pushes the element on the top of the stack. If the stack is full it is called an overflow condition.
+b) pop: pops out the element from the top which was latest inserted in the stack. If the stack is empty it is called underflow condition.
+c) peek: checks the top of the stack
+
+Practical example: Putting the dirty plates on top of other is the operation of push. Now when you have to wash them you will remove that plate which was at the top of the stack i.e. the plate which was inserted last is removed first. Thats the operation performed by pop. Before washing the plate you can check if the plates are dirty or not and after checking you put it back to the stack. This operation is performed by the peek operation.
+
+Example:
+
+-	push 1, push 2, push 3, push 4, push 5
+-	Stack will look something like: 1 2 3 4 5
+	with 1 at the top of the stack.
+-	pop( ) will return 5 and the stack will look like: 1 2 3 4
+-	peek( ) will retrun 1 and the stack will look something like: 1 2 3 4
+ 
+Note the difference between the peek( ) and pop( ).

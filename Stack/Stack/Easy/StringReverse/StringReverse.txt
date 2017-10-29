@@ -1,0 +1,32 @@
+ReverseString
+
+Given a string, reverse it using stack.
+
+Test Cases: 
+Input: geeksofjava
+Output: avajfoskeeg
+
+Input: hello
+Output: olleh
+
+Input: string reverse
+Output: esrever gnirts
+
+HINT: Use stack because of its LIFO (Last In First Out) property.
+
+Algorithm:
+Step-1: Push all the characters one by one to the stack
+Step-2: Pop one by one all the characters back from the stack till the stack doesn't get empty and keep appending it to the new String.
+Step-3: The new string is the reversed string.
+
+Example:
+Input: Hello
+
+-	Read one by one all the characters from the string and push it to the stack.
+	So stack will read as H e l l o
+-	Pop one by one all the values from the stack so the order in which they will be popped is: o l l e H
+
+Complexity:
+Time complexity: O(n)
+
+

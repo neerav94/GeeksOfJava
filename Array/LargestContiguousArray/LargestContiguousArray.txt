@@ -1,0 +1,20 @@
+LargestContiguousArray:
+Largest Sum Contiguous Subarray
+Write  an  efficient  C  program  to  find  the  sum  of  contiguous  subarray  within  a  one­dimensional  array  of
+numbers which has the largest sum.
+
+
+Algorithm:
+
+NOTE: The algorithm used is known as Kadane's algorithm
+1) Initialize two variables max_prev=0 and max_new=0
+2) Iterate over the elements of the array and update max_prev=max_prev+a[i] where i is the index of the array
+3) If max_prev<0, make max_prev=0
+4) If max_prev>max_new then make max_new=max_prev
+5) Repeat steps 3-4 until all elements are traversed.
+6) The value of max_new is the desired output.
+
+Complexity:
+Time: O(n)
+Space: O(1)
+

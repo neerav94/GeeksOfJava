@@ -1,0 +1,14 @@
+FindMissingElement1:
+Find the Missing Number
+You are given a list of n-­1 integers and these integers are in the range of 1 to n. There are no duplicates in
+list. One of the integers is missing in the list. Write an efficient code to find the missing integer. 
+
+Algorithm:
+
+1) XOR all the elements of the array and let it be stored in xor1
+2) XOR all the numbers from 1 to n and let it be stored in xor2
+3) XOR xor1 and xor2, this will yield the missing number
+
+Complexity:
+Time: O(n)
+Space: O(1)

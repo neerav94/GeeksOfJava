@@ -1,0 +1,15 @@
+QueueIntroduction
+
+Like Stack, Queue or First In First Out(FIFO) is a linear data type which has a collection
+     of elements which performs the following basic operations:
+     a) insert: inserts the element on the top of the queue. If the queue is full it is called an
+          overflow condition.
+      b) remove: removes the element from the queue which was inserted first of all. If the
+          queue is empty it is called underflow condition. 
+
+      The basic difference between stack and queue is that stack removes the element
+       which was last inserted in the stack while queue removes that element which was
+        inserted first.
+
+        The practical example of queue is the line of people waiting for ticket reservation at
+         railway station. One who comes first will be given the ticket first.

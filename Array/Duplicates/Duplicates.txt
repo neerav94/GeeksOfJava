@@ -1,0 +1,18 @@
+Duplicates:
+Find duplicates in O(n) time and O(1) extra space
+Given an array of n elements which contains elements from 0 to n-­1, with any of these numbers appearing
+any number of times. Find these repeating numbers in O(n) and using only constant memory space.
+For example, let n be 7 and array be {1, 2, 3, 1, 3, 6, 6}, the answer should be 1, 3 and 6.
+
+Algorithm:
+
+NOTE: The idea of using XOR operation is intuitive. But since the number can be repeated any number of times, this approach will fail. 
+1) Repeat the step 3-
+2) For each 'i' (index) in array 'arr', check if arr[arr[i]] is negative.
+3) If Positive, make the value of arr[arr[i]]= -arr[arr[i]]
+4) If Negative, then it is confirmed that arr[i] has already occurred in the array.
+
+Complexity:
+Time: O(n)
+Space: O(1)
+

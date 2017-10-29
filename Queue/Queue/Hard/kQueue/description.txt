@@ -1,0 +1,5 @@
+Create a data structure kQueue that represents k queue's. Implementation of kqueues should use only one array, i.e., k queues should use the same array for storing elements. Following functions must be supported by kqueues.
+
+insert(int x, int qn) –> inserts x to queue number ‘qn’ where qn is from 0 to k-1
+remove(int qn) –> removes an element from queue number ‘qn’ where qn is from 0 to k-1
+

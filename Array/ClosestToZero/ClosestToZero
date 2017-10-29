@@ -1,0 +1,18 @@
+ClosestToZero:
+Two elements whose sum is closest to zero
+Question: An Array of integers is given, both +ve and -­ve. You need to find the two elements such that their
+sum is closest to zero.
+
+Algorithm:
+
+1) Sort the array using Arrays.Sort(). This sorts the elements in ascending order.
+2) Use two variables min_left and min_right to store the two numbers to get closest to zero
+3) Start from both end of the array using variables l,r
+4) find the sum of corresponding indexes and store in a temporary variable.
+5) If the value of temp is < closest_sum then increment 'l' to point to higher value
+6) If the value of temp is > closest_sum then decrement 'r' to point to lower value
+7) Repeat the step 3-6 until l>r
+
+Complexity:
+Time: O(nlogn)
+Space: O(1)

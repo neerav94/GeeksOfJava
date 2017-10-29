@@ -1,0 +1,4 @@
+Given a postfix expression, evaluate it. Postfix expressions are of the form ABop where,
+A = number
+B = number
+op = operator  

@@ -1,0 +1,3 @@
+In priority queue each number have some priority associated with it. Lower priority number means the number associated with it has higher priority. So number with higher priority is deleted from the queue first. Following functions are implemented for priority queue:
+insert(number, priority): Inserts element in the queue with associated priority
+delete(): Deletes the element form the queue with highest priority. When the number is deleted from the queue it means its priority is set to -1 which means that the number deleted has no priority which in turn means that the number is deleted.

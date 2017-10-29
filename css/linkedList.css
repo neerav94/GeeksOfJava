@@ -1,0 +1,43 @@
+.containerRight {
+	margin: auto;
+	padding: 20px;
+	width: 65%;
+	height: 20%;
+	padding: 20px;
+	background-color: #fafafa;
+	margin-top:30px;
+	float: right;
+	margin-right: 10%;
+}
+
+.design {
+	width: 5cm;
+	font-size:18px;
+	color: #707B7C;
+	margin-left:3.25em;
+}
+
+.number {
+	font-size:15px;
+}
+
+.subHeading:hover {
+	color: #707B7C;
+}
+
+.mainHeading {
+	margin-left: 25%;
+	margin-top: 5%;
+}
+
+#like {
+	margin-left:3.25em;
+	width: 5%;
+	height : 30%;
+}
+
+#unlike {
+	margin-left:3.25em;
+	width: 5%;
+	height : 30%;
+}
